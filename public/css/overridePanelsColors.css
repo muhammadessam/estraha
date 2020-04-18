@@ -1,0 +1,16 @@
+.panel-blue .panel-heading, .panel-info .panel-heading {
+    background-color:  #57c9e8 !important;
+    border-color : #57c9e8 !important;
+}
+.navbar-header {
+    background:  #57c9e8 !important;
+}
+
+.fix-sidebar .top-left-part{
+    background:  #57c9e8 !important;
+}
+
+.thumb-lg{
+    height: 20px !important;
+    width: 20px !important;
+}

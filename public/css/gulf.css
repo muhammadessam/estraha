@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'TheMixArab';
+	src: url('TheMixArab.eot');
+	src: url('TheMixArab.eot?#iefix') format('embedded-opentype'),
+		url('TheMixArab.woff') format('woff'),
+		url('TheMixArab.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheMixArab';
+	src: url('TheMixArab-Bold.eot');
+	src: url('TheMixArab-Bold.eot?#iefix') format('embedded-opentype'),
+		url('TheMixArab-Bold.woff') format('woff'),
+		url('TheMixArab-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TheMixArab';
+	src: url('TheMixArab-Black.eot');
+	src: url('TheMixArab-Black.eot?#iefix') format('embedded-opentype'),
+		url('TheMixArab-Black.woff') format('woff'),
+		url('TheMixArab-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
