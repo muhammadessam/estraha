@@ -12,7 +12,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        /*DB::table('roles')->insert([
+        DB::table('roles')->insert([
             'name' => 'Admin',
             'code' =>'admin',
         ]);
@@ -25,9 +25,9 @@ class UsersTableSeeder extends Seeder
         DB::table('roles')->insert([
             'name' => 'Supplier',
             'code' =>'supplier',
-        ]);*/
+        ]);
 
-        /*DB::table('users')->insert([
+        DB::table('users')->insert([
             'name' => 'admin',
             'email' =>'admin@mail.com',
             'phone_number' => '1213232323',
@@ -36,9 +36,9 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('admin'),
             'role_id' => 1,
             'active' => 1,
-        ]);*/
+        ]);
 
-        /*DB::table('users')->insert([
+        DB::table('users')->insert([
             'name' => 'user',
             'email' =>'user@mail.com',
             'phone_number' => '009700598063017',
@@ -47,9 +47,9 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('user'),
             'role_id' => 2,
             'active' => 1,
-        ]);*/
+        ]);
 
-        /*DB::table('users')->insert([
+        DB::table('users')->insert([
             'name' => 'supplier',
             'email' =>'supplier@mail.com',
             'phone_number' => '009700598063018',
@@ -58,6 +58,6 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('supplier'),
             'role_id' => 3,
             'active' => 1,
-        ]);*/
+        ]);
     }
 }
