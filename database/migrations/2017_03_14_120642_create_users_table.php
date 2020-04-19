@@ -19,10 +19,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique('users_email');
             $table->string('password',60);
             $table->string('phone_number')->unique();
+            $table->string('profile_pic')->nullable();
             $table->string('gender');
             $table->date('birth_date');
             $table->boolean('active')->default(0);
-            $table->integer('activation_code');
+            $table->integer('activation_code')->nullable();
             $table->integer('role_id')->unsigned();
             $table->foreign('role_id')->references('id')->on('roles');
 

@@ -15,16 +15,16 @@ class SupplierProfileTable extends Migration
     {
         Schema::create('supplier_profile', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('web_address');
+            $table->string('web_address')->nullable();
             $table->string('address');
-            $table->string('lat');
-            $table->string('lng');
-            $table->string('address_details');
-            $table->string('street');
-            $table->string('street_number');
-            $table->string('code');
-            $table->string('country');
-            $table->string('state');
+            $table->string('lat')->nullable();
+            $table->string('lng')->nullable();
+            $table->string('address_details')->nullable();
+            $table->string('street')->nullable();
+            $table->string('street_number')->nullable();
+            $table->string('code')->nullable();
+            $table->string('country')->nullable();
+            $table->string('state')->nullable();
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');;
             $table->timestamps();
