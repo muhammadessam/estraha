@@ -169,7 +169,7 @@ return [
         LaravelFCM\FCMServiceProvider::class,
         Cornford\Googlmapper\MapperServiceProvider::class,
         Geocoder\Laravel\Providers\GeocoderService::class,
-        //Edofre\Fullcalendar\FullcalendarServiceProvider::class,
+        Edofre\Fullcalendar\FullcalendarServiceProvider::class,
 
 
         /*
@@ -241,7 +241,7 @@ return [
         'FCMGroup' => LaravelFCM\Facades\FCMGroup::class,
         'Mapper'         => Cornford\Googlmapper\Facades\MapperFacade::class,
         'Geocoder' =>        Geocoder\Laravel\Providers\GeocoderService::class,
-        //'Fullcalendar' => Edofre\Fullcalendar\Facades\Fullcalendar::class,
+        'Fullcalendar' => Edofre\Fullcalendar\Facades\Fullcalendar::class,
 
 
 

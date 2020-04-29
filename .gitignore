@@ -1,8 +1,11 @@
 /node_modules
 /public/hot
+!vendor/
+vendor/*
+!vendor/composer/
+!vendor/edofre/
 /public/storage
 /storage/*.key
-/vendor
 /.idea
 /.vagrant
 Homestead.json
