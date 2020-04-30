@@ -171,9 +171,9 @@ class Place extends Model
             'lat' => $request->input('lat') != null ? $request->input('lat') : 24.457254358585377 ,
             'lng' => $request->input('lng') != null ? $request->input('lng') : 45.8866571171875,
 
-            'deposit' => $place['deposit'] =='1' ? 1 : 0,
-            'deposit_amount' => $place['deposit_amount'],
-            'deposit_days' => $place['deposit_day'],
+//            'deposit' => $place['deposit'] =='1' ? 1 : 0,
+//            'deposit_amount' => $place['deposit_amount'],
+//            'deposit_days' => $place['deposit_day'],
         ];
 
         if ($place['sleep_room'] == 'yes')

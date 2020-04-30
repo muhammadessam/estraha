@@ -614,36 +614,36 @@
 
 
                 <div class="form-group">
-                        <div class="input-group">
+{{--                        <div class="input-group">--}}
 
-                            <label>
-                                With deposit
-                                <input type="radio" name="places[0][deposit]" onclick="show
-                                ($(this).parent().parent().next().attr('id'));"
-                                       value="1" />
-                            </label><br />
-                            <label>
-                                Without deposit <input type="radio" name="places[0][deposit]" onclick="hide
-                                ($(this).parent().parent().next().attr('id'));" value="0" />
-                            </label>
-                        </div>
-                        <div id="deposit_check" style="display:none;">
-                            <div>
-                                <div class="input-group" style="float: right;display:table;width:30%;">
-                                    <span class="input-group-addon" id="basic-addon3">SAR/ deposit amount</span>
-                                    <input type="text" class="form-control" name="places[0][deposit_amount]"
-                                       aria-describedby="basic-addon3"
-                                />
-                                </div>
-                                <div class="input-group" style="float: right;display:table;width:30%;
-                                margin-right:20px;">
-                                    <span class="input-group-addon" id="basic-addon4">Deposit days</span>
-                                    <input type="text" class="form-control" name="places[0][deposit_day]"
-                                            aria-describedby="basic-addon4"
-                                        />
-                                </div>
-                            </div>
-                        </div>
+{{--                            <label>--}}
+{{--                                With deposit--}}
+{{--                                <input type="radio" name="places[0][deposit]" onclick="show--}}
+{{--                                ($(this).parent().parent().next().attr('id'));"--}}
+{{--                                       value="1" />--}}
+{{--                            </label><br />--}}
+{{--                            <label>--}}
+{{--                                Without deposit <input type="radio" name="places[0][deposit]" onclick="hide--}}
+{{--                                ($(this).parent().parent().next().attr('id'));" value="0" />--}}
+{{--                            </label>--}}
+{{--                        </div>--}}
+{{--                        <div id="deposit_check" style="display:none;">--}}
+{{--                            <div>--}}
+{{--                                <div class="input-group" style="float: right;display:table;width:30%;">--}}
+{{--                                    <span class="input-group-addon" id="basic-addon3">SAR/ deposit amount</span>--}}
+{{--                                    <input type="text" class="form-control" name="places[0][deposit_amount]"--}}
+{{--                                       aria-describedby="basic-addon3"--}}
+{{--                                />--}}
+{{--                                </div>--}}
+{{--                                <div class="input-group" style="float: right;display:table;width:30%;--}}
+{{--                                margin-right:20px;">--}}
+{{--                                    <span class="input-group-addon" id="basic-addon4">Deposit days</span>--}}
+{{--                                    <input type="text" class="form-control" name="places[0][deposit_day]"--}}
+{{--                                            aria-describedby="basic-addon4"--}}
+{{--                                        />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                 </div>
 
 

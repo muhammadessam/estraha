@@ -107,6 +107,7 @@ Route::get('registration-intro',[
     'uses' => 'Auth\RegisterController@showRegistrationIntroPage',
     'as' => 'registration.intro'
 ]);
+Route::post('register', 'Auth\\RegisterController@register');
 
 Route::post('validate-image',[
     'uses' => 'registrationStepsValidatorController@validateImage',
