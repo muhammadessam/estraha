@@ -52,7 +52,7 @@ class PlacesController extends Controller
 
 
          $places = Place::select('*')
-                        ->groupBy('places.id')
+                        ->groupBy(['places.id', 'places.place_name'])
                         ->orderBy('places.id','desc')
                         ->get();
          return view('place.index', compact('places'));
