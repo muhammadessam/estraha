@@ -13,7 +13,7 @@ DB_PASSWORD= Password
 #### Step2:
 Linking With in terminal
 ```
-composer install
+composer update
 php artisan migrate
 php artisadb:seed
 ```
